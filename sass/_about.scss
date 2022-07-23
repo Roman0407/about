@@ -136,6 +136,9 @@ margin-left: 14px;
 }
 
 .modal{
+    display: block;
+
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -174,3 +177,11 @@ margin-left: 14px;
     pointer-events: none;
 }
 
+.modal-text{
+    font-weight: 500;
+        font-size: 12px;
+        line-height: 1.58;
+    margin: 0;
+    padding: 20px;
+    color:#2d2a2a;
+}
