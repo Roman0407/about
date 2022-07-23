@@ -41,6 +41,8 @@ body {
 .about {
   width: 100%;
   background-color: #FFF5F6;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .about-content__pre-title {
@@ -50,7 +52,6 @@ body {
   font-size: 18px;
   line-height: 1.16;
   color: #FFA5BA;
-  padding-top: 60px;
   margin-top: 0;
   margin-bottom: 0;
 }
