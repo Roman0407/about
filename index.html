@@ -47,7 +47,7 @@
                     <!-- </div> -->
                     </p>
                 </div>
-                    <button type="button" class="about-content__btn">
+                    <button type="button" class="about-content__btn" data-modal-open>
                       Read more
                     
                         <svg class="icon" width="10" height="8">
@@ -58,6 +58,18 @@
             </div>
         </section>
     </main>
-    
+
+   <!--Модальное окно-->
+<div class="backdrop is-hidden" data-modal>
+   <div class="modal">
+    <button type="button" class="modal-close-btn" data-modal-close>
+        <svg class="modal-icon" width="9" height="9">
+            <use href="./img/icons.svg#icon-close_24px"></use>
+        </svg>
+    </button>
+   </div>
+</div>
+
+<script src="./js/modal.js"></script>
 </body>
 </html>
