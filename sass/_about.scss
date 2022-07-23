@@ -137,7 +137,7 @@ margin-left: 14px;
 
 .modal{
     display: block;
-
+    padding: 20px;
 
     position: absolute;
     top: 50%;
@@ -145,7 +145,7 @@ margin-left: 14px;
     transform: translate(-50%, -50%) scale(1);
     width: 280px;
     min-height: 570px;
-    background-color:#c1e297f1;
+    background-color:#ffb8cae2;
     border-radius: 5px;
     transition: transform 300ms linear;
 }
@@ -178,10 +178,19 @@ margin-left: 14px;
 }
 
 .modal-text{
-    font-weight: 500;
-        font-size: 12px;
-        line-height: 1.58;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
     margin: 0;
-    padding: 20px;
-    color:#2d2a2a;
+   
+    color:var(--main-title-color);
+}
+
+.modal-title{
+    font-family: 'Titan One';
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.16;
+        color: rgba(113, 69, 69, 0.926);
 }
