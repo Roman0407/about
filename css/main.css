@@ -159,7 +159,7 @@ body {
   transform: translate(-50%, -50%) scale(1);
   width: 280px;
   min-height: 570px;
-  background-color: rgba(144, 126, 130, 0.9137254902);
+  background-color: rgba(193, 226, 151, 0.9450980392);
   border-radius: 5px;
   transition: transform 300ms linear;
 }
