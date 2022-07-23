@@ -103,7 +103,7 @@ body {
   display: flex;
   width: 280px;
   height: 133px;
-  transform: translateY(-230px);
+  transform: translateY(-249px);
 }
 
 .about-content__btn {
@@ -125,8 +125,7 @@ body {
 
 .about-content__btn:hover,
 .about-content__btn:focus {
-  background-color: var(--main-title-color);
-  color: var(--background-color);
+  background-color: var(--header-color);
 }
 
 .about-content__btn {
@@ -135,9 +134,4 @@ body {
 
 .icon {
   margin-left: 14px;
-}
-
-.icon:hover,
-.icon :focus {
-  color: var(--background-color);
 }/*# sourceMappingURL=main.css.map */
