@@ -180,6 +180,7 @@ body {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   color: var(--background-color);
+  outline: transparent;
   border-color: var(--background-color);
 }
 

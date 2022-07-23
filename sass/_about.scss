@@ -49,15 +49,12 @@ body {
 
 .about-content__cow {
     margin-top: 32px;
-    
-
 }
 .about-content__after{
     margin-top: 40px;
 }
 
 .about-content__after-title {
-    
     font-weight: 500;
     font-size: 12px;
     line-height: 1.58;
@@ -65,7 +62,6 @@ body {
    margin-top: 0;
     margin-right: 80px;
     margin-bottom: 0;
-   
 }
 
 
@@ -168,14 +164,13 @@ margin-left: 14px;
 .modal-close-btn:hover,
 .modal-close-btn:focus{
     color: var(--background-color);
-        // outline: transparent;
-        border-color: var(--background-color);
+    outline: transparent;
+    border-color: var(--background-color);
 }
 
 .is-hidden{
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
 }
 
