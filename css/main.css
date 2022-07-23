@@ -137,7 +137,7 @@ body {
 }
 
 /*Модальное окно*/
-.backdrop {
+.backdrop-about {
   position: fixed;
   top: 0;
   left: 0;
@@ -151,21 +151,22 @@ body {
   transform: translate(-50%, -50%) scale(0);
 }
 
-.modal {
+.modal-about {
   display: block;
   padding: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 280px;
+  width: 100%;
+  max-width: 280px;
   min-height: 570px;
-  background-color: rgba(255, 184, 202, 0.8862745098);
+  background-color: #ffb8ca;
   border-radius: 5px;
   transition: transform 300ms linear;
 }
 
-.modal-close-btn {
+.modal-about-btn {
   position: absolute;
   right: 5px;
   top: 5px;
@@ -179,8 +180,8 @@ body {
   justify-content: center;
 }
 
-.modal-close-btn:hover,
-.modal-close-btn:focus {
+.modal-about-btn:hover,
+.modal-about-btn:focus {
   color: var(--background-color);
   outline: transparent;
   border-color: var(--background-color);
@@ -192,7 +193,7 @@ body {
   pointer-events: none;
 }
 
-.modal-text {
+.modal-about-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
@@ -200,11 +201,19 @@ body {
   color: var(--main-title-color);
 }
 
-.modal-title {
+.modal-about-title {
   font-family: "Titan One";
   text-align: center;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.16;
   color: rgba(113, 69, 69, 0.926);
+}
+
+.modal-last-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 25px;
+  color: var(--background-color);
 }/*# sourceMappingURL=main.css.map */
